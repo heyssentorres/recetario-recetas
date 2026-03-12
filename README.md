@@ -16,20 +16,14 @@ Web application that consumes a public API to display food recipes organized by 
 
 ## Project Structure
 recetario-recetas
+
 │
-
 ├── index.html
-
 ├── css
-
 │ └── styles.css
-
 ├── js
-
 │ └── app.js
-
 └── assets
-
 └── images
 
 ## How to Run
