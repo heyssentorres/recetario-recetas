@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recetario de Recetas</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <p id="search_nombre" class="nav-btn active">Nombre</p>
+            <p id="search_categoria" class="nav-btn">Por categoría</p>
+            <p id="search_region" class="nav-btn">Por Región</p>
+            <p id="search_ingrediente" class="nav-btn">Por ingrediente</p>
+        </nav>
+
+        <div class="header-section">
+            <h2>Recetario de Recetas</h2>
+            <p>Encuentra tus platillos favoritos aquí</p>
+            <p id="search_indicador"><strong>Modo de búsqueda:</strong> Por nombre</p>
+        </div>
+
+        <form class="input-container">
+            <input id="busqueda_nombre" type="text" class="input" placeholder="Busca un platillo... (ej: chicken, pasta, cake)" />
+            <input id="busqueda_categoria" type="text" class="input" placeholder="Busca por categoría... (ej: Seafood, Dessert, Vegetarian)" style="display: none;"/>
+            <input id="busqueda_region" type="text" class="input" placeholder="Busca por región... (ej: Canadian, Italian, Mexican)" style="display: none;"/>
+            <input id="busqueda_ingrediente" type="text" class="input" placeholder="Busca por ingrediente... (ej: chicken_breast, salmon, rice)" style="display: none;"/>
+        </form>
+
+        <main id="main-container">
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
