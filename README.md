@@ -51,7 +51,7 @@ This project was created to practice:
 
 ## Authors
 Developed by:
-- Angel Gabriel Eugenio Herrera
+- Angel Gabriel Eugenio 
 - Heyssen Arturo Torres Sosa
 - Adrián Valeriano Sáenz
 
